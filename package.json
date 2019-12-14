@@ -1,12 +1,12 @@
 {
-  "name": "DenariusStats",
+  "name": "InnovaStats",
   "version": "1.0.0",
-  "description": "Statistics for denariusd in NodeJS",
+  "description": "Statistics for innovad in NodeJS",
   "repository": {
     "type": "git",
-    "url": "https://github.com/carsenk/denariusstats.git"
+    "url": "https://github.com/innova-foundation/innovastats.git"
   },
-  "author": "Carsen Klock",
+  "author": "CircuitBreaker",
   "license": "MIT",
   "scripts": {
     "start": "node app.js",
@@ -32,7 +32,7 @@
     "node-sass-middleware": "^0.11.0",
     "pug": "^2.0.0-beta6",
     "unirest": "^0.5.1",
-    "wallet-address-validator": "git://github.com/carsenk/wallet-address-validator"
+    "wallet-address-validator": "git://github.com/CircuitBreaker88/wallet-address-validator"
   },
   "devDependencies": {
     "chai": "^3.5.0",

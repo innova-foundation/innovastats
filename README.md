@@ -1,14 +1,14 @@
 
-Denarius [DNR] NodeJS Statistics
+Innova [INN] NodeJS Statistics
 =======================
 
-[![Dependency Status](https://david-dm.org/carsenk/denariusstats/status.svg?style=flat)](https://david-dm.org/carsenk/denariusstats) [![Build Status](https://travis-ci.org/carsenk/denariusstats.svg?branch=master)](https://travis-ci.org/carsenk/denariusstats) [![Join the chat at https://gitter.im/denariusproject/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/denariusproject/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link) [![Thinkful Pair on Node](https://tf-assets-staging.s3.amazonaws.com/badges/thinkful_repo_badge.svg)](http://start.thinkful.com/node/)
+[![Dependency Status](https://david-dm.org/innova-foundation/innovastats/status.svg?style=flat)](https://david-dm.org/innova-foundation/innovastats) [![Build Status](https://travis-ci.org/innova-foundation/innovastats.svg?branch=master)](https://travis-ci.org/innova-foundation/innovastats) [![Join the chat at https://gitter.im/innovaproject/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/innovaproject/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link) [![Thinkful Pair on Node](https://tf-assets-staging.s3.amazonaws.com/badges/thinkful_repo_badge.svg)](http://start.thinkful.com/node/)
 
-**Live Demo**: https://denarius.host
+**Live Demo**: https://innova.host
 
-Denarius Node Statistics - NodeJS powered denariusd Stats.
+Innova Node Statistics - NodeJS powered innovad Stats.
 
-View tons of Denarius related statistics including the current number of masternodes online in the Denarius network.
+View tons of Innova related statistics including the current number of masternodes online in the Innova network.
 
 Table of Contents
 -----------------
@@ -16,21 +16,21 @@ Table of Contents
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
-- [Denarius Daemon Setup](#denarius-daemon-setup)
+- [Innova Daemon Setup](#innova-daemon-setup)
 - [License](#license)
 
 Features
 --------
 
-- View denariusd statistics
-- View coinmarketcap statistics for DNR
+- View innovad statistics
+- View coinmarketcap statistics for INN
 
 -More features will be coming!
 
 Prerequisites
 -------------
 
-- [denariusd](https://github.com/carsenk/denarius)
+- [innovad](https://github.com/innova-foundation/innova)
 - [Node.js 6.0+](http://nodejs.org)
 - Command Line Tools (Optional)
  - <img src="http://deluge-torrent.org/images/apple-logo.gif" height="17">&nbsp;**Mac OS X:** [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) (or **OS X 10.9+**: `xcode-select --install`)
@@ -46,10 +46,10 @@ The easiest way to get started is to clone the repository:
 
 ```bash
 # Get the latest snapshot
-git clone --depth=1 https://github.com/carsenk/denariusstats.git denariusstats
+git clone --depth=1 https://github.com/innova-foundation/innovastats.git innovastats
 
 # Change directory
-cd denariusstats
+cd innovastats
 
 # Install NPM dependencies
 npm install
@@ -71,14 +71,14 @@ save you a lot of time in the long run, because you won't need to manually
 restart the server each time you make a small change in code. To install, run
 `sudo npm install -g nodemon`.
 
-Denarius Daemon Setup
+Innova Daemon Setup
 ------------------
 
-You must have a Denarius daemon running on a local server or remote server (highly recommend using SSL)
+You must have a Innova daemon running on a local server or remote server (highly recommend using SSL)
 
 Your configuration options should be set within your .env file, you can check the .env.example for examples
 
-In your denarius.conf file (The Denariusd/QT configuration file) add the following to allow use of the stats.
+In your innova.conf file (The Innovad/QT configuration file) add the following to allow use of the stats.
 
 ```bash
 

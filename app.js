@@ -1,5 +1,5 @@
 /**
- * Denarius Stats by Carsen Klock, Main app.js
+ * Innova Stats by Carsen Klock, Main app.js
  * Module dependencies. This is a WIP
  */
 const express = require('express');
@@ -20,7 +20,7 @@ const unirest = require('unirest');
 const chalk = require('chalk');
 
 /**
- * Load environment variables from .env file, where Denariusd is configured
+ * Load environment variables from .env file, where Innovad is configured
  */
 dotenv.load({ path: '.env' });
 
@@ -78,7 +78,7 @@ app.use(errorHandler());
  * Start Express server.
  */
 app.listen(app.get('port'), () => {
-  console.log('%s Denarius.host Stats are running at http://localhost:%d in %s mode', chalk.green('✓'), app.get('port'), app.get('env'));
+  console.log('%s Innova.host Stats are running at http://localhost:%d in %s mode', chalk.green('✓'), app.get('port'), app.get('env'));
 
   console.log('  Press CTRL-C to stop\n');
 });

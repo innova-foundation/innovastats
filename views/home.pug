@@ -2,16 +2,16 @@ extends layout
 
 block content
   .logo(align='left')
-    img(src='../img/denarius.png', border='0', align='left')
-  .mainh(align='right') Denarius.host
-  .slogan(align='right') Denarius [D] powered statistics node in NodeJS.
+    img(src='../img/innova.png', border='0', align='left')
+  .mainh(align='right') Innova.host
+  .slogan(align='right') Innova [D] powered statistics node in NodeJS.
   hr
   .row
     .col-md-4(align='center')
       | Current Block Height
       .statxl.animated.flipInX #{blockcount}
     .col-md-4(align='center')
-      | Denarius Hybrid Fortuna Stakes Online: 
+      | Innova Hybrid Fortuna Stakes Online: 
       .statxl.animated.flipInX #{count}
     .col-md-4(align='center')
       | Total D Locked in Fortuna Stakes: 
@@ -19,24 +19,24 @@ block content
   hr
   .row
     .col-md-4(align='center')
-      | Current Denarius in Circulation: 
+      | Current Innova in Circulation: 
       .statlg.animated.flipInX #{totalsupply}
       | D
     .col-md-4(align='center')
-      | Denarius Network Hashrate: 
+      | Innova Network Hashrate: 
       .statlg.animated.flipInX #{hashespersec} 
       | GigaHashes per sec
     .col-md-4(align='center')
-      | Max Denarius Supply:
+      | Max Innova Supply:
       .statlg.animated.flipInX 10,000,000
       | D
   hr
   .row
     .col-md-3(align='center')
-      | Denarius Current USD Price: 
+      | Innova Current USD Price: 
       .statmd.animated.flipInX $#{usd}
     .col-md-3(align='center')
-      | Denarius Current BTC Price: 
+      | Innova Current BTC Price: 
       .statmd.animated.flipInX #{btc}
     .col-md-3(align='center')
       | Current Fortuna Stake USD Price: 
@@ -97,16 +97,16 @@ block content
   hr
   .row
     .col-md-4(align='center')
-      | Current Denarius Client Version:
+      | Current Innova Client Version:
       .statmd.animated.flipInX #{clientversion}
     .col-md-4(align='center')
-      | Current Denarius Protocol:
+      | Current Innova Protocol:
       .statmd.animated.flipInX #{clientproto}
     .col-md-4(align='center')
       | Connections to this node:
       .statmd.animated.flipInX #{connections}
   hr
-  .mainh(align='center') Denarius Hybrid Fortuna Stake List
+  .mainh(align='center') Innova Hybrid Fortuna Stake List
   hr
   each pubkey, index in masternodeadds
     .row

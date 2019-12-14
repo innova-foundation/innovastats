@@ -6,10 +6,10 @@ const moment = require('moment');
 
 // all config options are optional
 var client = new bitcoin.Client({
-    host: process.env.DNRHOST,
-    port: process.env.DNRPORT,
-    user: process.env.DNRUSER,
-    pass: process.env.DNRPASS,
+    host: process.env.INNHOST,
+    port: process.env.INNPORT,
+    user: process.env.INNUSER,
+    pass: process.env.INNPASS,
     timeout: 30000
 });
 
@@ -52,18 +52,18 @@ exports.index = function (req, res) {
         //List Masternodes
         client.masterNode('list', 'pubkey', function (err, masternodelists, resHeaders) {
             if (err) return console.log(err, client.masterNode);
-            
-                unirest.get("https://api1.barterdexapi.net/swapspercoin.php?coin=DNR")
+
+                unirest.get("https://api1.barterdexapi.net/swapspercoin.php?coin=INN")
                     .headers({ 'Accept': 'application/json' })
                     .end(function (results) {
                         var requests = results.body;
-                        
-                        var totalswaps = results.body[0]['totalswaps'];                        
+
+                        var totalswaps = results.body[0]['totalswaps'];
                         var bobswaps = results.body[0]['bobswaps'];
                         var aliceswaps = results.body[0]['aliceswaps'];
                         var totalasvol = results.body[0]['totalvolume'];
 
-                unirest.get("https://api.coinmarketcap.com/v1/ticker/denarius-dnr/")
+                unirest.get("https://api.coinmarketcap.com/v1/ticker/innova-dnr/")
                     .headers({ 'Accept': 'application/json' })
                     .end(function (result) {
                         var usdprice = result.body[0]['price_usd'];
@@ -79,17 +79,17 @@ exports.index = function (req, res) {
                         var totallocked = count * 5000;
 
                         var totalmnpercent = (totallocked / totalsupply) * 100;
-                        
+
                         var genesistime = moment("20170614", "YYYYMMDD").fromNow();
 
                         var clientversion = getinfo['version'];
                         var clientproto = getinfo['protocolversion'];
                         var connections = getinfo['connections'];
-                        
+
                         var masternodeadds = masternodelists;
-                        
+
                         res.render('home', {
-                          title: 'Denarius Statistics',
+                          title: 'Innova Statistics',
                           clientversion: clientversion,
                           totalswaps: totalswaps,
                           bobswaps: bobswaps,
