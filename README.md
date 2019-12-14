@@ -2,12 +2,12 @@
 Innova [INN] NodeJS Statistics
 =======================
 
-[![Dependency Status](https://david-dm.org/innova-foundation/innovastats/status.svg?style=flat)](https://david-dm.org/innova-foundation/innovastats) [![Build Status](https://travis-ci.org/innova-foundation/innovastats.svg?branch=master)](https://travis-ci.org/innova-foundation/innovastats)[![Thinkful Pair on Node](https://tf-assets-staging.s3.amazonaws.com/badges/thinkful_repo_badge.svg)](http://start.thinkful.com/node/)
+[![Dependency Status](https://david-dm.org/innova-foundation/innovastats/status.svg?style=flat)](https://david-dm.org/innova-foundation/innovastats) [![Build Status](https://travis-ci.org/innova-foundation/innovastats.svg?branch=master)](https://travis-ci.org/innova-foundation/innovastats) [![Thinkful Pair on Node](https://tf-assets-staging.s3.amazonaws.com/badges/thinkful_repo_badge.svg)](http://start.thinkful.com/node/)
 
 **Live Demo**: https://innova.host
 
 Innova Node Statistics - NodeJS powered innovad Stats.
-
+ 
 View tons of Innova related statistics including the current number of masternodes online in the Innova network.
 
 Table of Contents
