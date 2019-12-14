@@ -2,7 +2,7 @@
 Innova [INN] NodeJS Statistics
 =======================
 
-[![Dependency Status](https://david-dm.org/innova-foundation/innovastats/status.svg?style=flat)](https://david-dm.org/innova-foundation/innovastats) [![Build Status](https://travis-ci.org/innova-foundation/innovastats.svg?branch=master)](https://travis-ci.org/innova-foundation/innovastats) [![Join the chat at https://gitter.im/innovaproject/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/innovaproject/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link) [![Thinkful Pair on Node](https://tf-assets-staging.s3.amazonaws.com/badges/thinkful_repo_badge.svg)](http://start.thinkful.com/node/)
+[![Dependency Status](https://david-dm.org/innova-foundation/innovastats/status.svg?style=flat)](https://david-dm.org/innova-foundation/innovastats) [![Build Status](https://travis-ci.org/innova-foundation/innovastats.svg?branch=master)](https://travis-ci.org/innova-foundation/innovastats)[![Thinkful Pair on Node](https://tf-assets-staging.s3.amazonaws.com/badges/thinkful_repo_badge.svg)](http://start.thinkful.com/node/)
 
 **Live Demo**: https://innova.host
 
