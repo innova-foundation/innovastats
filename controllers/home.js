@@ -118,7 +118,7 @@ exports.index = function (req, res) {
                           totalsupply: parseFloat(totalsupply).toLocaleString('en-US')
                         });
                     });
-                    });
+
             });
             });
         });
