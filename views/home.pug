@@ -11,10 +11,10 @@ block content
       | Current Block Height
       .statxl.animated.flipInX #{blockcount}
     .col-md-4(align='center')
-      | Innova Hybrid Fortuna Stakes Online:
+      | Innova Hybrid Collateral Nodes Online:
       .statxl.animated.flipInX #{count}
     .col-md-4(align='center')
-      | Total INN Locked in Fortuna Stakes:
+      | Total INN Locked in Collateral Nodes:
       .statxl.animated.flipInX #{totallockedup}
   hr
   .row
@@ -39,10 +39,10 @@ block content
       | Innova Current BTC Price:
       .statmd.animated.flipInX #{btc}
     .col-md-3(align='center')
-      | Current Fortuna Stake USD Price:
+      | Current Collateral Node USD Price:
       .statmd.animated.flipInX $#{totalmnusd}
     .col-md-3(align='center')
-      | Current Fortuna Stake BTC Price:
+      | Current Collateral Node BTC Price:
       .statmd.animated.flipInX #{totalmnbtc} BTC
   hr
   .row
@@ -67,7 +67,7 @@ block content
       | 24hr Daily Volume:
       .statmd.animated.flipInX $#{dailyvol}
     .col-md-4(align='center')
-      | INN Fortuna Stake Cost:
+      | INN Collateral Node Cost:
       .statmd.animated.flipInX 25000 INN
   hr
   .row
@@ -106,7 +106,7 @@ block content
       | Connections to this node:
       .statmd.animated.flipInX #{connections}
   hr
-  .mainh(align='center') Innova Hybrid Fortuna Stake List
+  .mainh(align='center') Innova Hybrid Collateral Node List
   hr
   each pubkey, index in masternodeadds
     .row
